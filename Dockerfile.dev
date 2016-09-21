@@ -1,0 +1,6 @@
+from nginx
+ADD nginx.conf /etc/nginx/nginx.conf
+ADD dev/conf.d /etc/nginx/conf.d
+ADD dev/certs/dev.twleansw.com /usr/local/etc/ssl/certs/dev.twleansw.com
+
+
