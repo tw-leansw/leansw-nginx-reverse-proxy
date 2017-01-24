@@ -1,4 +1,4 @@
 from nginx
 ADD nginx.conf /etc/nginx/nginx.conf
-ADD conf.d /etc/nginx/conf.d
-ADD toc/certs/dev.twleansw.com /usr/local/etc/ssl/certs/dev.twleansw.com
+ADD toc/conf.d /etc/nginx/conf.d
+ADD toc/certs/toc.twleansw.com /usr/local/etc/ssl/certs/dev.twleansw.com
